@@ -3,7 +3,6 @@ from PIL import Image
 import os
 
 def ft_load(path: str):
-    """Function to load image and convert it to numpy array"""
     try:
         if not path.lower().endswith(("jpg", "jpeg")):
             raise AssertionError("Only JPG and JPEG formats are supported.")

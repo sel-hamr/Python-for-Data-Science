@@ -98,6 +98,46 @@ content in RGB format.
 You have to handle, at least, JPG and JPEG format.
 You need to handle any error with a clear error message
 
+### Exercise 03
+
+Create a program that should load the image "animal.jpeg", print some information
+about it and display it after "zooming".
+
+• The size in pixel on both X and Y axis
+
+• The number of channel
+
+• The pixel content of the image.
+
+• Display the scale on the x and y axis on the image
+
+If anything went wrong, the program must not stop abruptly and handle any error
+with a clear message.
+
+### Exercise 04
+
+Make a program which must load the image "animal.jpeg", cut a square part from it
+and transpose it to produce the image below. It should display it, print the new shape
+and the data of the image after the transpose.
+
+### Exercise 05
+
+You need to develop 5 functions capable of applying a variety of color filters to images,
+while keeping the image shape the same.
+
+You have some restriction operators for each function: (you can only use those given,
+you don’t have to use them all)
+
+• invert: =, +, -, \*
+
+• red: =, \*
+
+• green: =, -
+
+• blue: =
+
+• grey: =, /
+
 ## Day 4: OOP
 
 Replayed Game of Thrones in python, genius references where the Lannister class takes everything
